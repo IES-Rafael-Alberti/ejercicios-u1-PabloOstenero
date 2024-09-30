@@ -9,3 +9,4 @@ print("Dame dos números para dividirlos: ")
 dividendo = int(input())
 divisor = int(input())
 
+print(f"La división de {dividendo} entre {divisor} da un cociente {int(dividendo/divisor)} y un resto {dividendo%divisor}")
