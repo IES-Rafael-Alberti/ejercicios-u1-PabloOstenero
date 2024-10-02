@@ -3,7 +3,8 @@
 # imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.
 #
 
-nombre = input("Escribe tu nombre y el número de veces que quieras que se imprima por pantalla: ")
-rep = int(input())
+nombre = input("Escribe tu nombre: ")
+rep = int(input("Escribe el número de veces que quieres que se muestre por pantalla: "))
 
-print(nombre * rep)
+for i in range(0, rep):
+    print(nombre)
