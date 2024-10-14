@@ -13,7 +13,12 @@
 ancho = 17
 alto = 12.0
 
-print(ancho / 2)
-print(ancho // 2)
-print (alto / 3)
-print (1 + 2 * 5)
+print(f"ancho / 2 = {ancho / 2} y es de tipo {type(ancho/2)}")
+print(f"ancho // 2 = {ancho // 2} y es de tipo {type(ancho//2)}")
+print(f"alto / 3 = {alto / 3} y es de tipo {type(alto / 3)}")
+print(f"1 + 2 * 5 = {1 + 2 * 5} y es de tipo {type(1 + 2 * 5)}")
+print(f"ancho / alto = {ancho / alto} y es de tipo {type(ancho/alto)}")
+print(f"ancho * 2 = {ancho * 2} y es de tipo {type(ancho*2)}")
+print(f"ancho * alto = {ancho * alto} y es de tipo {type(ancho*alto)}")
+print(f"(5 + 1 * 3) = {(5 + 1) * 3} y es de tipo {type((5 + 1) * 3)}")
+print(f"(5 + 1 / 3) = {(5 + 1) / 3} y es de tipo {type((5 + 1) / 3)}")

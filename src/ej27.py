@@ -4,15 +4,6 @@
 # el número de unidades con tres dígitos y el coste total con 8 dígitos enteros y 2 decimales.
 #
 
-def precio_unitario(num, dig):
-    num = round(num, 2)
-    cadena = str(num)
-
-    cadena = "0"*dig + cadena
-
-    return cadena
-
-
 def main():
     nombre = input("Escribe el nombre del producto: ")
     precio = float(input("Dime el precio del producto: "))
@@ -20,7 +11,7 @@ def main():
 
     coste_total = precio * unidades
 
-    cadena = nombre + " " + precio_unitario(precio, 6) + " " + precio_unitario(coste_total, 8)
+    cadena = nombre + " " + "%09.2f" % unidades + " " + "%011.2f" % coste_total
 
     print(cadena)
 

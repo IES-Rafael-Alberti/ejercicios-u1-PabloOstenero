@@ -6,11 +6,11 @@ cont = 0
 
 print("Escribe tres números:")
 
-num = int(input())
+num = float(input())
 cont += num
-num = int(input())
+num = float(input())
 cont += num
-num = int(input())
+num = float(input())
 cont += num
 
-print(f"La suma de los 3 números es {cont}")
+print(f"La suma de los 3 números es {round(cont, 2)}")

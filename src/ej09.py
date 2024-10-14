@@ -4,4 +4,4 @@
 
 print("Escribe tres números: ")
 
-print(f"La suma de los números es: {int(input()) + int(input()) + int(input())}")
+print(f"La suma de los números es: {round(float(input()) + float(input()) + float(input()), 2)}")

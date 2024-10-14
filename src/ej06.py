@@ -5,4 +5,4 @@
 
 precio = float(input("Escribe el precio final del producto: "))
 
-print(f"El precio sin IVA del producto es {precio / 1.1}")
+print(f"El precio sin IVA del producto es {round(precio / 1.1, 2)}")

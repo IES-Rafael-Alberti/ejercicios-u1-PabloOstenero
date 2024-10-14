@@ -6,4 +6,4 @@ num1 = float(input("Excribe 3 números: \n"))
 num2 = float(input())
 num3 = float(input())
 
-print(f"La suma de los 3 números es {num1 + num2 + num3}")
+print(f"La suma de los 3 números es {round(num1 + num2 + num3, 2)}")

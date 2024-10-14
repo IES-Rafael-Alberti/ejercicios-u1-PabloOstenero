@@ -5,4 +5,4 @@
 
 celsius = float(input("Dime la temperatura en Celsius: "))
 
-print(f"La temperatura en Fahrenheit es {(celsius * 9/5) + 32}")
+print(f"La temperatura en grados Fahrenheit es {round((celsius * 9/5) + 32, 2)}ºF ({round(celsius, 2)}ºC)")

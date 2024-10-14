@@ -25,9 +25,9 @@ while check == False:
             else:
                 if ((mes == 4 or mes == 6 or mes == 9 or mes == 11) and (dia == 31)):  #Para los meses que tienen 30 días no deja poner el dia 31
                     print(f"{meses[mes-1]} no tiene 31 dias")
-                elif mes == 1 and año%4 != 0 and dia >= 29:                            #Comprueba los días de febrero porque es especialito
+                elif mes == 2 and año%4 != 0 and dia >= 29:                            #Comprueba los días de febrero porque es especialito
                     print(f"{meses[mes-1]} no tiene {dia} días")
-                elif mes == 1 and año%4 == 0 and dia >= 30:
+                elif mes == 2 and año%4 == 0 and dia >= 30:
                     print(f"{meses[mes-1]} no tiene {dia} días")
                 else:                                                                  #Si todo es correcto entra aquí y hace que salga del bucle
                     check = True

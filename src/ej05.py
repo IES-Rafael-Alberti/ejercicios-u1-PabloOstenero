@@ -9,4 +9,4 @@ iva = float(input("Dime el porcentaje de IVA: "))
 
 iva = (iva / 100) + 1
 
-print(f"El precio del producto con IVA es {precio * iva}")
+print(f"El precio del producto con IVA es {round(precio * iva, 2)}")
