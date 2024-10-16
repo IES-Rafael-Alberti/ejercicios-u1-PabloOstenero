@@ -6,7 +6,8 @@
 #
 
 def factorial(n):
-    return (n*(n+1))/2
+    suma = (n*(n+1))/2
+    return f"La suma de todos los números desde 1 hasta {n} es: {suma}"
 
 def main():
     n = -1
@@ -15,9 +16,9 @@ def main():
         if n<0:
             print("El número debe ser mayor que 0")
 
-    suma = factorial(n)
+    resutado = factorial(n)
 
-    print(f"La suma de todos los números desde 1 hasta {n} es: {suma}")
+    print(resutado)
 
 if __name__ == "__main__":
     main()

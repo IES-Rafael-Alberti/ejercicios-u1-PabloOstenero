@@ -19,15 +19,15 @@ def serie(inicio, incremento, total):
     return serie
 
 def main():
-    inicio = -1
+    incremento = -1
     total = -1
     
-    while inicio < 1:
-        inicio = int(input("Escribe un número de inicio para la serie: "))
-        if inicio < 1:
+    inicio = int(input("Escribe un número de inicio para la serie: "))
+    
+    while incremento < 1:
+        incremento = int(input("Escribe un número para el incremento de la serie: "))    
+        if incremento < 1:
             print("Tienes que escribir un número superior a 0.\n")
-
-    incremento = int(input("Escribe un número para el incremento de la serie: "))
 
     while total < 1:
         total = int(input("Escribe el número total de la serie: "))
